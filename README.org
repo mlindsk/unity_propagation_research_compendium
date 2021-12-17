@@ -6,6 +6,9 @@ This repository contains the scripts needed to generate the results from the pap
  - The graphs in =triang/nets= were downloaded from
    * https://www.bnlearn.com/bnrepository/
 
+To generate all the results
+
+ - Run =make= in a terminal (it takes a long time and should be, preferably, performed on a server)
  - The final results can be found in the =img= folder
 
 All benchmarks were conducted on a Linux server with 56 cores and 512 GB RAM. Only a single core was used however, to get more reliable benchmarks.
