@@ -21,6 +21,9 @@ for (d in datasets) {
   dev.off() 
 }
 
+plot(df$x, df$y, type = "l", bty="n", yaxt="n", xaxt="n", ylab = "", xlab = "", lwd = 12)
+plot(df$x, df$y, type = "l", bty="n", ylab = "", xlab = "", lwd = 12)
+
 # jt_info <- lapply(datasets, function(d) {
 
 #   print(d)

@@ -18,8 +18,6 @@ for (x in datasets) {
     parkinson = 50,
     adult     = 15,
     chess     = 0,
-    connect   = 0,
-    covertype = 100,
     credit    = 15,
     derma     = 80,
     mushroom  = 30

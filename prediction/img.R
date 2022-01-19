@@ -2,6 +2,10 @@ library("dplyr")
 library("tidyr")
 library("ggplot2")
 
+library("showtext")
+font_add("Courier", "COURIER.TTF")
+showtext_auto()
+
 res <- readRDS("results/results_prediction.rds") %>%
   as_tibble()
 
@@ -31,7 +35,8 @@ p1 <- res_tidy_1 %>%
   ylab("10-fold crossvalidation score") +
   theme_bw() +
   theme(legend.position = "top") +
-  theme(legend.title=element_blank())
+  theme(legend.title=element_blank()) +
+  theme(strip.text.x = element_text(family = "Courier"))
 
 # p1
 

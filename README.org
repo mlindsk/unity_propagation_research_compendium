@@ -1,4 +1,4 @@
-This repository contains the scripts needed to generate the results from the paper *Inconsistent Evidence Smoothing in Bayesian Networks and Unity Propagation in Junction Trees*.
+This repository contains the scripts needed to generate the results from the paper *Unity Propagation in Bayesian Networks Handling Inconsistency via Unity Smoothing*.
 
  - The data sets in =data/raw= were downloaded from
    * https://archive.ics.uci.edu/ml/datasets.php
